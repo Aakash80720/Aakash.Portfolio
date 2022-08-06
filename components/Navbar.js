@@ -25,7 +25,6 @@ const Navbar = () => {
     };
     window.addEventListener('scroll', handleShadow);
   }, []);
-
   return (
     <div
       style={{ backgroundColor: `${navBg}` }}
@@ -150,12 +149,12 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/aakash-rajendran-aa586a1a7/'
+                  href='mailto:aakashrajendran@gmail.com'
                   target='_blank'
                   rel='noreferrer'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaLinkedinIn />
+                    <AiOutlineMail />
                   </div>
                 </a>
                 <a
@@ -167,12 +166,21 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
+                <a
+                  href='https://www.linkedin.com/in/aakash-rajendran-aa586a1a7/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <FaLinkedinIn />
+                  </div>
+                </a>
                 <Link href='/resume'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
-                    <AiOutlineMail />
+                    <BsFillPersonLinesFill/>
                   </div>
                 </Link>
               </div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
@@ -35,9 +36,18 @@ const Main = () => {
                     </Link>      
                     <Link href='/resume'>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <AiOutlineMail/>
+                        <BsFillPersonLinesFill/>
                         </div>
                     </Link>
+                    <a
+                    href='mailto:aakashrajendran@gmail.com'
+                    target='_blank'
+                    rel='noreferrer'
+                    >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <AiOutlineMail />
+                    </div>
+                </a>
                     </div>
                     <h6 className="py-4 text-gray-800 m-auto max-w-[70%]">
                         Mail id : <span className="text-gray-600 m-auto max-w-[70%]">
