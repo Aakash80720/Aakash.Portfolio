@@ -11,13 +11,19 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            / / As a Fresher
+            Fresher
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-600 text-justify'>
+          I'm Aakash R, a Fresher with  Industrial working Experience in the Technologies I mentioned. 
+          I'm more flexible with working with new technologies. I'll work hard and put a cent percent effort into the Tasks. 
+          I'm friendly of nature and easy to collab with colleagues. I'm seeking the opportunity to prove my selves 
+          with technical and interpersonal skills 
+          </p>
+          <p className='py-2 text-gray-600 text-justify'>
             I'm Starting my career more eager to learn new technologies, then adopt and sustain 
             with the different Suituation that will develop me more as a person.
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-600 text-justify'>
             Fascinated with how intricate programming can be I was quickly drawn
             to learn more. I started learning javascript and was even more
             enthused with making websites interactive. I am
@@ -28,10 +34,10 @@ const About = () => {
             intern experience
           </p>
           <h5 className='py-3'>ZOHO Corparation</h5>
-          <p className='py-2 text-gray-600'>
-            As intern student as Software Developer begins with learn java , postgres , tomcat and product related technologies ideology.
-            As part of the development in the application was solving the ticket and
-            impove the existing functionality ,Then fix the Issues in live.
+          <p className='py-2 text-gray-600 text-justify'>
+          As a Software Developer trainee begins with learning java, Postgres, tomcat, and product-related technologies. 
+          As part of the development tickets resolving and improves existed functionalities, 
+          Then fixing Issues and majorly analyzing events then optimizing them.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
